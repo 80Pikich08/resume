@@ -5,8 +5,7 @@
     "description": "Разработка системы управления документами для командной работы.",
     "role": "Frontend-разработчик, аналитик",
     "technologies": ["Python", "Google Collab"],
-    "link": "https://colab.research.google.com/drive/1nTWYuZNjry9EaCHEPwu5eJjlCMYColoM?usp=sharingw",
-    "image": "assets/images/projects/docflow.webp"
+    "link": "https://colab.research.google.com/drive/1nTWYuZNjry9EaCHEPwu5eJjlCMYColoM?usp=sharingw"
   }, 
   {
     "id": 2,
