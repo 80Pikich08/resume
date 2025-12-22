@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Новые медиа: SMM и digital-маркетинг",
+    "platform": "ВК education",
+    "year": 2025,
+    "skills": ["Использование платформы и сервисов VK в SMM в digital-маркетинге"],
+    "certificateImage": "assets/images/sert1.png",
+    "link": "https://education.vk.company/curriculum/program/discipline/2332/"
+  },
+  {
+    "id": 2,
+    "title": "Генеративное искусство",
+    "platform": "Сбер университет",
+    "year": 2025,
+    "skills": ["Освоил основы промт-инжиниринга для текстов и изображений","Научился эффективно формулировать запросы к ИИ-инструментам","Развил практические навыки создания и модификации контента с помощью ИИ","Познакомился с решениями распространённых проблем при работе с генеративными моделями"],
+    "certificateImage": "assets/images/sert2.png",
+    "link": "https://sberuniversity.ru/bitrix/services/main/ajax.php?mode=class&c=dalee:virtual.school&action=jwt&stream_id=24990"
+  },
+  {
+    "id": 3,
+    "title": "Работа с LLM GigaChat",
+    "platform": "Сбер университет",
+    "year": 2025,
+    "skills": ["Освоил основы работы с нейросетевой моделью GigaChat","Научился составлять эффективные промпты для различных задач","Познакомился с системным промптингом и интеграцией GigaChat в бизнес-процессы","Изучил методы RAG (Retrieval-Augmented Generation) для работы с документами","Освоил GigaChain SDK для создания сложных инструментов на базе GigaChat"], 
+    "certificateImage": "assets/images/sert3.png",
+    "link": "https://sberuniversity.ru/learning/course/rabota-s-llm-gigachat"
+  }
+]

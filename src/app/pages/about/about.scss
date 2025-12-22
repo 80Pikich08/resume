@@ -1,0 +1,61 @@
+.about {
+  padding: 2rem 0;
+}
+
+.bio {
+  max-width: 800px;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.links {
+  margin-top: 1.5rem;
+}
+
+.links ul {
+  padding-left: 1.25rem;
+}
+
+.links li {
+  margin-bottom: 0.4rem;
+}
+
+.links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.skills {
+  margin-top: 2rem;
+}
+
+.skills-group {
+  margin-bottom: 1.25rem;
+}
+
+.skills-group h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills-list span {
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: #f1f1f1;
+  font-size: 0.9rem;
+}
+
+.skills-list span {
+  background: var(--accent);
+  color: #fff;
+}

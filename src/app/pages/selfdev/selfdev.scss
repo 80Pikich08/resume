@@ -1,0 +1,46 @@
+.development {
+  padding: 2rem 0;
+}
+
+.intro {
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+}
+
+.card h3 {
+  margin-bottom: .5rem;
+}
+
+.card ul {
+  padding-left: 1.25rem;
+}
+
+.card li {
+  margin-bottom: .35rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.tags span {
+  background: rgba(0,0,0,.08);
+  padding: .35rem .6rem;
+  border-radius: 6px;
+  font-size: .9rem;
+}

@@ -1,0 +1,44 @@
+:host {
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.header__inner {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 999px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, .12);
+}
+
+.name {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.title {
+    margin: .25rem 0;
+    color: var(--muted);
+}
+
+.btn-cta {
+    display: inline-block;
+    margin-top: .5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    background: var(--accent);
+    color: #fff;
+}

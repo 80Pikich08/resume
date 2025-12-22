@@ -1,0 +1,139 @@
+<section class="courses-page">
+
+  <!-- controls -->
+  <div class="controls container">
+    <div class="left">
+
+      <label>
+        Платформа:
+        <select
+          [(ngModel)]="platformFilter"
+          (ngModelChange)="updateFilters()"
+        >
+          <option value="All">Все</option>
+          <option *ngFor="let p of platforms" [value]="p">
+            {{ p }}
+          </option>
+        </select>
+      </label>
+
+      <label>
+        Сортировать:
+        <select
+          [(ngModel)]="sortBy"
+          (ngModelChange)="updateFilters()"
+        >
+          <option value="year_desc">Год (новые сначала)</option>
+          <option value="year_asc">Год (старые сначала)</option>
+          <option value="title_asc">По названию (A→Z)</option>
+        </select>
+      </label>
+
+    </div>
+
+    <div class="right">
+      <input
+        type="search"
+        placeholder="Поиск по названию или навыкам"
+        [(ngModel)]="search"
+        (ngModelChange)="updateFilters()"
+      />
+    </div>
+  </div>
+
+  <!-- cards -->
+  <div class="cards container">
+
+    <ng-container *ngIf="filtered$ | async as filtered; else loading">
+
+      <div *ngIf="filtered.length === 0" class="empty">
+        Курсы не найдены
+      </div>
+
+      <div class="grid">
+        <article
+          class="card"
+          *ngFor="let course of filtered; trackBy: trackById"
+        >
+
+          <div class="card-head">
+            <img
+              [src]="course.certificateImage || 'assets/images/placeholder.webp'"
+              [alt]="course.title"
+              loading="lazy"
+              (click)="openModal(course)"
+            />
+          </div>
+
+          <div class="card-body">
+            <h3 class="card-title">{{ course.title }}</h3>
+
+            <div class="meta">
+              <span class="platform">{{ course.platform }}</span>
+              <span class="year">{{ course.year }}</span>
+            </div>
+
+            <p class="skills">
+              <strong>Навыки:</strong>
+              {{ (course.skills || []).join(', ') }}
+            </p>
+
+            <div class="actions">
+              <a
+                *ngIf="course.link"
+                [href]="course.link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Официальная страница
+              </a>
+
+              <button type="button" (click)="openModal(course)">
+                Увеличить сертификат
+              </button>
+            </div>
+          </div>
+
+        </article>
+      </div>
+
+    </ng-container>
+
+    <ng-template #loading>
+      <p class="loading">Загрузка курсов…</p>
+    </ng-template>
+
+  </div>
+
+  <!-- modal -->
+  <div
+    class="modal-backdrop"
+    *ngIf="selectedCourse"
+    (click)="closeModal()"
+  >
+    <div class="modal" (click)="$event.stopPropagation()">
+      <button class="modal-close" (click)="closeModal()">✕</button>
+
+      <h3>{{ selectedCourse.title }}</h3>
+      <p class="modal-meta">
+        {{ selectedCourse.platform }} — {{ selectedCourse.year }}
+      </p>
+
+      <img
+        [src]="selectedCourse.certificateImage || 'assets/images/placeholder.webp'"
+        alt="certificate"
+      />
+
+      <p *ngIf="selectedCourse.link">
+        <a
+          [href]="selectedCourse.link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Перейти на страницу курса
+        </a>
+      </p>
+    </div>
+  </div>
+
+</section>

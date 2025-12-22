@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "title": "Система документооборота в команде",
+    "description": "Разработка системы управления документами для командной работы.",
+    "role": "Frontend-разработчик, аналитик",
+    "technologies": ["Python", "Google Collab"],
+    "link": "https://colab.research.google.com/drive/1nTWYuZNjry9EaCHEPwu5eJjlCMYColoM?usp=sharingw",
+    "image": "assets/images/projects/docflow.webp"
+  }, 
+  {
+    "id": 2,
+    "title": "Проект для конкурса «Система»",
+    "description": "Проектная работа для участия в конкурсе, подготовка документации и презентации.",
+    "role": "Разработчик, менеджер проекта",
+    "technologies": ["Docs", "Presentation"],
+    "docs": "https://docs.google.com/document/d/1Dn7a3c_E2gAZTV08YeqEnGYf9uZKjRGD/edit?usp=sharing&ouid=118074586847961879668&rtpof=true&sd=true",
+    "presentation": "https://docs.google.com/presentation/d/1vMfR5QeOz-R2yQ0pVynegFA7BQXOK4dC/edit?usp=sharing&ouid=118074586847961879668&rtpof=true&sd=true"
+  },
+   {
+    "id": 3,
+    "title": "Сайт «Как я провёл лето»",
+    "description": "Курсовой проект",
+    "role": "Разработчик",
+    "technologies": ["HTML", "CSS","JavaScript"],
+    "link": "https://80pikich08.github.io/SiteProLeto/"
+  },
+   {
+    "id": 4,
+    "title": "Визуальная новелла по практике",
+    "description": "Курсовой проект",
+    "role": "Разработчик",
+    "technologies": ["HTML", "CSS","Twine"],
+    "link": "https://80pikich08.github.io/resume/assets/novel/"
+  }
+]
