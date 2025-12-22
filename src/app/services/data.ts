@@ -6,7 +6,7 @@ import { Observable, shareReplay } from 'rxjs';
   providedIn: 'root',
 })
 export class Data {
-  private base = '/assets/data';
+  private base = 'assets/data';
 
   private courses$?: Observable<any[]>;
   private projects$?: Observable<any[]>;
