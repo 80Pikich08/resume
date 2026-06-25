@@ -91,7 +91,7 @@
     "link": "https://drive.google.com/file/d/1NgBkh0ZWvhbId-sWSSTQe-Q_k2DtKLTH/view?usp=sharing"
   },
         {
-    "id": 11,
+    "id": 12,
     "title": "Сайт Django",
     "description": "Сайт Документооборота",
     "role": "Автор",
@@ -100,7 +100,7 @@
     "docs": "assets/images/Django.png"
   },
         {
-    "id": 11,
+    "id": 13,
     "title": "Сайт Laravel",
     "description": "Сайт Фотостудии",
     "role": "Автор",
