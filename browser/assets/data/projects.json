@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "title": "Система документооборота в команде",
+    "description": "Разработка системы управления документами для командной работы.",
+    "role": "Frontend-разработчик, аналитик",
+    "technologies": ["Python", "Google Collab"],
+    "link": "https://colab.research.google.com/drive/1nTWYuZNjry9EaCHEPwu5eJjlCMYColoM?usp=sharingw"
+  }, 
+  {
+    "id": 2,
+    "title": "Проект для конкурса «Система»",
+    "description": "Проектная работа для участия в конкурсе, подготовка документации и презентации.",
+    "role": "Разработчик, менеджер проекта",
+    "technologies": ["Docs", "Presentation"],
+    "docs": "https://docs.google.com/document/d/1Dn7a3c_E2gAZTV08YeqEnGYf9uZKjRGD/edit?usp=sharing&ouid=118074586847961879668&rtpof=true&sd=true",
+    "presentation": "https://docs.google.com/presentation/d/1vMfR5QeOz-R2yQ0pVynegFA7BQXOK4dC/edit?usp=sharing&ouid=118074586847961879668&rtpof=true&sd=true"
+  },
+   {
+    "id": 3,
+    "title": "Сайт «Как я провёл лето»",
+    "description": "Курсовой проект",
+    "role": "Разработчик",
+    "technologies": ["HTML", "CSS","JavaScript"],
+    "link": "https://80pikich08.github.io/SiteProLeto/"
+  },
+   {
+    "id": 4,
+    "title": "Визуальная новелла по практике",
+    "description": "Курсовой проект",
+    "role": "Разработчик",
+    "technologies": ["HTML", "CSS","Twine"],
+    "link": "https://80pikich08.github.io/resume/assets/novel/"
+  },
+     {
+    "id": 5,
+    "title": "ArtMasters",
+    "description": "Конкурс",
+    "role": "Участник",
+    "technologies": ["design"],
+    "link": "assets/images/ArtMasters.png"
+  },
+     {
+    "id": 6,
+    "title": "Мастерство промптов: работа с изображениями в российских нейросетях",
+    "description": "Конкурс",
+    "role": "Участник",
+    "technologies": ["prompt engineering"],
+    "link": "assets/images/IT-Planet1.png"
+  },
+      {
+    "id": 7,
+    "title": "Мастерство промптов: работа с текстом в российских нейросетях",
+    "description": "Конкурс",
+    "role": "Участник",
+    "technologies": ["prompt engineering"],
+    "link": "assets/images/IT-Planet2.png"
+  },
+  {
+    "id": 8,
+    "title": "Нейросетевое искусство",
+    "description": "Конкурс",
+    "role": "Участник",
+    "technologies": ["prompt engineering"],
+    "link": "assets/images/Traektotuya.pdf"
+  },
+
+        {
+    "id": 9,
+    "title": "VK Education",
+    "description": "Конкурс",
+    "role": "Участник",
+    "technologies": ["test"],
+    "link": "assets/images/VK_Education.png"
+  },
+        {
+    "id": 10,
+    "title": "VK Education",
+    "description": "Конкурс",
+    "role": "Участник",
+    "technologies": ["test"],
+    "link": "assets/images/VK_Education.png"
+  },
+
+        {
+    "id": 11,
+    "title": "Цифровые решения",
+    "description": "Анимационный ролик ко дню открытых дверей",
+    "role": "Создатель видео",
+    "technologies": ["ChatGPT"],
+    "link": "https://drive.google.com/file/d/1NgBkh0ZWvhbId-sWSSTQe-Q_k2DtKLTH/view?usp=sharing"
+  },
+        {
+    "id": 12,
+    "title": "Сайт Django",
+    "description": "Сайт Документооборота",
+    "role": "Автор",
+    "technologies": ["React Frontend, Django REST API, SQLite, Django Admin, docxtpl, media/templates, media/generated"],
+    "link": "https://github.com/80Pikich08/siteIEI",
+    "docs": "assets/images/Django.png"
+  },
+        {
+    "id": 13,
+    "title": "Сайт Laravel",
+    "description": "Сайт Фотостудии",
+    "role": "Автор",
+    "technologies": ["Laravel Routes, Controllers, Eloquent models, React Pages, Filament Resources, PostgreSQL"],
+    "link": "https://github.com/80Pikich08/photostudio",
+    "docs": "assets/images/Larabel.png"
+  }
+]
